@@ -145,7 +145,7 @@ export class GroupActivityServiceImpl implements CsGroupActivityService {
                 progress: 0
             }
             element.agg.forEach(e => {
-                if(e.metric.indexOf('max_score') == -1 && e.metric.indexOf('score') != -1){
+                if(e.metric.lastIndexOf('score') === 0){
                     const name = assessmentsMap[e.metric.split(':')[1]]
                     e.metric = name;
                     rowObj[name] = e.value;

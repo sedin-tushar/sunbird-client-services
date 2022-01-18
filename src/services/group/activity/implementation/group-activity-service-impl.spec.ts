@@ -1442,21 +1442,26 @@ describe('GroupActivityServiceImpl', () => {
             "members": [
               {
                 "agg": [
-                  {
-                    "metric": "completedCount",
-                    "value": 2,
-                    "lastUpdatedOn": 1620813324224
-                  },
-                  {
-                    "metric": "score:do_2129493337594429441162",
-                    "value": 2,
-                    "lastUpdatedOn": 1620641871592
-                  },
-                  {
-                    "metric": "progress",
-                    "lastUpdatedOn": 1621231520634,
-                    "value": 67
-                  }
+                    {
+                        "metric":"score:do_2134461695288360961162",
+                        "value":4,
+                        "lastUpdatedOn":1642487743606
+                     },
+                     {
+                        "metric":"completedCount",
+                        "value":6,
+                        "lastUpdatedOn":1642487783882
+                     },
+                     {
+                        "metric":"max_score:do_2134461695288360961162",
+                        "value":4,
+                        "lastUpdatedOn":1642487743606
+                     },
+                     {
+                        "metric": "progress",
+                        "lastUpdatedOn": 1621231520634,
+                        "value": 67
+                     }
                 ],
                 "name": "Balakrishna M",
                 "role": "admin",
