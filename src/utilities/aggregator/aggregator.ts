@@ -43,8 +43,6 @@ export class Aggregator {
             continue;
           }
 
-          console.log(Aggregator.deepGet(a, key.split('.')));
-
           const aKeyValue = Aggregator.deepGet(a, key.split('.')).toLowerCase();
           const bKeyValue = Aggregator.deepGet(b, key.split('.')).toLowerCase();
 
