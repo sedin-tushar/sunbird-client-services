@@ -18,7 +18,7 @@
   "dependencies": {
     "@project-sunbird/telemetry-sdk": "0.1.0",
     "inversify": "5.1.1",
-    "dayjs": "1.9.8",
+    "dayjs": "1.11.10",
     "jsonld": "5.2.0",
     "jsonld-signatures": "7.0.0",
     "jszip": "3.10.1",
