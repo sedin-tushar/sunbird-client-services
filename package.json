@@ -23,7 +23,7 @@
     "jsonld-signatures": "7.0.0",
     "jszip": "3.10.1",
     "node-fetch": "2.7.0",
-    "qs": "6.9.7",
+    "qs": "6.11.2",
     "reflect-metadata": "0.1.13",
     "whatwg-fetch": "3.6.19"
   },
